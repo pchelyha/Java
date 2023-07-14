@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="524.0" prefWidth="440.0" style="-fx-background-color: #4169E1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.policklinika.ClientRecord">
+   <children>
+      <Label layoutX="142.0" layoutY="49.0" prefHeight="27.0" prefWidth="157.0" text="Запись клиентов">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ComboBox fx:id="name_clients" layoutX="34.0" layoutY="116.0" prefHeight="19.0" prefWidth="157.0" promptText="Выберете клиента" style="-fx-background-color: #FFE4E1 ;" />
+      <ComboBox fx:id="name_service" layoutX="34.0" layoutY="158.0" prefHeight="27.0" prefWidth="157.0" promptText="Выберете услугу" style="-fx-background-color: #FFE4E1 ;" />
+      <TextField fx:id="date_priem" layoutX="32.0" layoutY="204.0" promptText="Введите дату приёма" />
+      <TextField fx:id="time_priem" layoutX="32.0" layoutY="249.0" promptText="Введите время приёма" />
+      <Button fx:id="b_zapis" layoutX="56.0" layoutY="302.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: #FFE4E1 ;" text="Записать" />
+      <Button fx:id="back" layoutX="193.0" layoutY="413.0" mnemonicParsing="false" style="-fx-background-color: #FFE4E1 ;" text="Назад" />
+      <Button fx:id="skode" layoutX="237.0" layoutY="116.0" mnemonicParsing="false" style="-fx-background-color: #FFE4E1 ;" text="Сформировать штрих-код" />
+   </children>
+</AnchorPane>

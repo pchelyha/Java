@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #dadada;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Order">
+   <children>
+      <Label fx:id="empty" alignment="CENTER" layoutX="193.0" layoutY="329.0" prefHeight="49.0" prefWidth="214.0" text="Заполните все поля ввода" visible="false">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numberZacaz" layoutX="337.0" layoutY="88.0" prefHeight="35.0" prefWidth="214.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Label layoutX="92.0" layoutY="141.0" prefHeight="17.0" prefWidth="149.0" text="Клиент">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="92.0" layoutY="93.0" prefHeight="17.0" prefWidth="149.0" text="Номер кредита">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Text layoutX="203.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оформление кредита">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="client" layoutX="337.0" layoutY="136.0" prefHeight="35.0" prefWidth="214.0"  style="-fx-font-size:14;" />
+      <Button fx:id="accept" layoutX="231.0" layoutY="329.0" mnemonicParsing="false" onAction="#Loan" prefHeight="49.0" prefWidth="139.0" style="-fx-background-color: #fafafa;" text="Оформить" textFill="#000000f2">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="92.0" layoutY="188.0" text="Вид кредита">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <ComboBox fx:id="loan" layoutX="337.0" layoutY="183.0" prefHeight="35.0" prefWidth="214.0"  style="-fx-font-size:14;" />
+      <Label layoutX="93.0" layoutY="231.0" text="Дата получения кредита">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="date_take" layoutX="337.0" layoutY="226.0" prefHeight="35.0" prefWidth="214.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="92.0" layoutY="277.0" text="Дата возврата кредита ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="date_return" layoutX="337.0" layoutY="272.0" prefHeight="35.0" prefWidth="214.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="back" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#BackToProfile" prefHeight="35.0" prefWidth="69.0" style="-fx-background-color: #fafafa;" text="Назад" textFill="#000000f2">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

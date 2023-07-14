@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="510.0" prefWidth="448.0" style="-fx-background-color: #4169E1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.policklinika.ListClients">
+   <children>
+      <ComboBox fx:id="fio_klienta" layoutX="134.0" layoutY="175.0" prefHeight="27.0" prefWidth="169.0" promptText="ФИО клиента" />
+      <Button fx:id="spisok" layoutX="146.0" layoutY="255.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="145.0" style="-fx-background-color: #FFE4E1 ;" text="Вывести список" />
+      <Button fx:id="vihod" layoutX="189.0" layoutY="353.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="59.0" style="-fx-background-color: #FFE4E1 ;" text="Назад" />
+      <Label layoutX="140.0" layoutY="55.0" text="Списки клиентов">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

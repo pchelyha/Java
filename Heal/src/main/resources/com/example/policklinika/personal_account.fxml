@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="414.0" prefWidth="395.0" style="-fx-background-color: #4169E1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.policklinika.PersonalAccount">
+   <children>
+      <Label fx:id="user_name" layoutX="144.0" layoutY="28.0" prefHeight="24.0" prefWidth="107.0" />
+      <Label fx:id="user_post" layoutX="144.0" layoutY="52.0" prefHeight="24.0" prefWidth="107.0" />
+      <Button fx:id="zapis" layoutX="131.0" layoutY="194.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="134.0" style="-fx-background-color: #FFE4E1 ;" text="Запись клиента" />
+      <Button fx:id="doxodi" layoutX="131.0" layoutY="284.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFE4E1 ;" text="Вывести доходы" />
+      <Button fx:id="exit" layoutX="170.0" layoutY="337.0" mnemonicParsing="false" style="-fx-background-color: #FFE4E1 ;" text="Выход" />
+      <Button fx:id="spiski" layoutX="131.0" layoutY="240.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFE4E1 ;" text="Список клиентов" />
+      <ImageView fx:id="img1" fitHeight="106.0" fitWidth="107.0" layoutX="145.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Иванов.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #dadada;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.AddEmployee">
+    <children>
+        <Label fx:id="empty" alignment="CENTER" layoutX="193.0" layoutY="329.0" prefHeight="49.0" prefWidth="214.0" text="Заполните все поля ввода" visible="false">
+            <font>
+                <Font name="Times New Roman Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="numberZacaz" layoutX="337.0" layoutY="88.0" prefHeight="35.0" prefWidth="214.0">
+            <font>
+                <Font size="16.0" />
+            </font></TextField>
+        <Label layoutX="92.0" layoutY="141.0" prefHeight="17.0" prefWidth="149.0" text="Должность">
+            <font>
+                <Font size="16.0" />
+            </font></Label>
+        <Label layoutX="92.0" layoutY="93.0" prefHeight="17.0" prefWidth="149.0" text="Id сотрудника">
+            <font>
+                <Font size="16.0" />
+            </font></Label>
+        <Text layoutX="188.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оформление сотрудника">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="accept" layoutX="231.0" layoutY="329.0" mnemonicParsing="false" onAction="#Loan" prefHeight="49.0" prefWidth="139.0" style="-fx-background-color: #fafafa;" text="Оформить" textFill="#000000f2">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Button>
+        <Label layoutX="92.0" layoutY="188.0" text="ФИО">
+            <font>
+                <Font size="16.0" />
+            </font></Label>
+        <Label layoutX="93.0" layoutY="231.0" text="Логин">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="log" layoutX="337.0" layoutY="226.0" prefHeight="35.0" prefWidth="214.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <Label layoutX="92.0" layoutY="277.0" text="Пароль">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="pass1" layoutX="337.0" layoutY="272.0" prefHeight="35.0" prefWidth="214.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <Button fx:id="back" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#BackToProfile" prefHeight="35.0" prefWidth="69.0" style="-fx-background-color: #fafafa;" text="Назад" textFill="#000000f2">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+      <TextField fx:id="fio" layoutX="337.0" layoutY="183.0" prefHeight="35.0" prefWidth="214.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="post" layoutX="337.0" layoutY="136.0" style="-fx-font-size:14;" prefHeight="35.0" prefWidth="214.0" />
+      <PasswordField fx:id="pas" layoutX="337.0" layoutY="272.0" prefHeight="35.0" prefWidth="214.0">
+         <font>
+            <Font size="16.0" />
+         </font></PasswordField>
+      <CheckBox fx:id="check" layoutX="521.0" layoutY="281.0" mnemonicParsing="false" onAction="#click" />
+    </children>
+</AnchorPane>

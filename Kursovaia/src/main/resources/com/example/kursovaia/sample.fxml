@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" styleClass="#00BFFF" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursovaia.Controller">
+    <children>
+        <Label layoutX="63.0" layoutY="50.0" prefHeight="64.0" prefWidth="127.0" style="-fx-text-fill: #000;" text="больница" textAlignment="CENTER" textFill="#000">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <TextField fx:id="l" layoutX="51.0" layoutY="148.0" prefHeight="25.0" prefWidth="149.0" promptText="Логин" />
+        <Button fx:id="vhod" layoutX="67.0" layoutY="298.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="116.0" style="-fx-background-color: #dfdf ;" text="войти" textAlignment="CENTER" textOverrun="CLIP">
+            <font>
+                <Font name="Mali" size="18.0" />
+            </font>
+        </Button>
+        <TextField fx:id="pa" layoutX="52.0" layoutY="220.0" prefHeight="27.0" prefWidth="149.0" promptText="Password" />
+        <PasswordField fx:id="p" layoutX="51.0" layoutY="220.0" prefHeight="25.0" prefWidth="149.0" promptText="Пароль" />
+        <CheckBox fx:id="g" layoutX="176.0" layoutY="254.0" mnemonicParsing="false" onAction="#mask" prefHeight="14.0" prefWidth="18.0" />
+      <Label layoutX="52.0" layoutY="254.0" text="посмотреть пароль" />
+        <Label fx:id="oshibka" layoutX="14.0" layoutY="129.0" prefHeight="143.0" prefWidth="222.0" text="Повторите попытку через 10 сек." textAlignment="CENTER" textFill="#B22222" wrapText="true" />
+    </children>
+</AnchorPane>

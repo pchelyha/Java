@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="414.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursovaia.History">
+   <children>
+      <Label fx:id="user_name" layoutX="159.0" layoutY="76.0" prefHeight="24.0" prefWidth="107.0" />
+      <Label fx:id="user_post" layoutX="159.0" layoutY="100.0" prefHeight="24.0" prefWidth="107.0" />
+      <Button fx:id="zapis" layoutX="226.0" layoutY="250.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="134.0" text="Запись клиента" />
+      <Button fx:id="history" layoutX="40.0" layoutY="250.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" text="Доход от услуг" />
+      <Button fx:id="exit" layoutX="170.0" layoutY="337.0" mnemonicParsing="false" text="Выход" />
+      <ImageView fx:id="img1" fitHeight="106.0" fitWidth="107.0" layoutX="70.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Федоров.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="historyv" layoutX="53.0" layoutY="300.0" mnemonicParsing="false" text="История входа" />
+      <Button fx:id="disease" layoutX="232.0" layoutY="300.0" mnemonicParsing="false" text="История болезни" />
+   </children>
+</AnchorPane>

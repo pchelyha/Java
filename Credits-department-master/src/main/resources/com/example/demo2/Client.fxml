@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #dadada;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Client">
+    <children>
+        <Label fx:id="empty1" alignment="CENTER" layoutX="193.0" layoutY="329.0" prefHeight="49.0" prefWidth="214.0" text="Заполните все поля ввода" visible="false">
+            <font>
+                <Font name="Times New Roman Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="idClient" layoutX="301.0" layoutY="75.0" prefHeight="20.0" prefWidth="214.0">
+            <font>
+                <Font size="14.0" />
+            </font></TextField>
+        <Label layoutX="93.0" layoutY="118.0" prefHeight="17.0" prefWidth="149.0" text="ФИО">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <Label layoutX="93.0" layoutY="80.0" prefHeight="17.0" prefWidth="149.0" text="Id клиента">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <Text layoutX="203.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оформление клиента">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="accept1" layoutX="231.0" layoutY="343.0" mnemonicParsing="false" onAction="#Loan" prefHeight="35.0" prefWidth="122.0" style="-fx-background-color: #fafafa;" text="Оформить" textFill="#000000f2">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Button>
+        <Label layoutX="93.0" layoutY="155.0" text="Паспортные данные">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <Label layoutX="93.0" layoutY="192.0" text="Телефон">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="tel" layoutX="301.0" layoutY="187.0" prefHeight="20.0" prefWidth="214.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="93.0" layoutY="229.0" text="Адрес">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="address" layoutX="301.0" layoutY="224.0" prefHeight="20.0" prefWidth="214.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="back1" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#BackToProfile" prefHeight="30.0" prefWidth="69.0" style="-fx-background-color: #fafafa;" text="Назад" textFill="#000000f2">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+      <TextField fx:id="FIOClient" layoutX="301.0" layoutY="113.0" prefHeight="20.0" prefWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="PasportData" layoutX="301.0" layoutY="150.0" prefHeight="20.0" prefWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="93.0" layoutY="265.0" text="E-mail">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mail" layoutX="301.0" layoutY="260.0" prefHeight="20.0" prefWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label alignment="TOP_CENTER" layoutX="85.0" layoutY="300.0" prefHeight="20.0" prefWidth="62.0" text="Пароль">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pass1" layoutX="301.0" layoutY="295.0" prefHeight="30.0" prefWidth="214.0" visible="false" />
+      <PasswordField fx:id="password" layoutX="301.0" layoutY="295.0" prefHeight="30.0" prefWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font></PasswordField>
+      <CheckBox fx:id="check" layoutX="488.0" layoutY="302.0" mnemonicParsing="false" onAction="#click" />
+    </children>
+</AnchorPane>

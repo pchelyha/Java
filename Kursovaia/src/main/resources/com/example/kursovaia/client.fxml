@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="524.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursovaia.Сlient">
+   <children>
+      <Label layoutX="142.0" layoutY="73.0" prefHeight="27.0" prefWidth="157.0" text="Запись клиентов">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ComboBox fx:id="name_clients" layoutX="42.0" layoutY="153.0" prefHeight="27.0" prefWidth="157.0" promptText="Выберете клиента" />
+      <ComboBox fx:id="name_service" layoutX="41.0" layoutY="195.0" prefHeight="27.0" prefWidth="157.0" promptText="Выберете услугу" />
+      <TextField fx:id="date_priem" layoutX="226.0" layoutY="155.0" promptText="Введите дату приёма" />
+      <TextField fx:id="time_priem" layoutX="226.0" layoutY="195.0" promptText="Введите время приёма" />
+      <Button fx:id="b_zapis" layoutX="153.0" layoutY="252.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="115.0" text="Записать" />
+      <Button fx:id="back" layoutX="183.0" layoutY="369.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="skode" layoutX="123.0" layoutY="310.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="176.0" text="Сформировать штрих-код" />
+   </children>
+</AnchorPane>
